@@ -12,6 +12,7 @@ named **ECMAScript**. Since then all browsers use ECMAScript as a basis for thei
 JS Implementation
 --
 JS implementation is made up of 3 parts:
+
 1. The Core (*ECMAScript*)
 + DOM (Document Object Model)
 + BOM (Browser Object Model)
