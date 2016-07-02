@@ -16,7 +16,7 @@ JS implementation is made up of 3 parts:
 + DOM (Document Object Model)
 + BOM (Browser Object Model)
 
-<br/>
+
 **ECMAScript**: *language defined in ECMA-262*
 * It is not directly consumed rather it acts as a base to define more robust scripting languages.
 + Web browsers are just one kind of host environment in which as ECMAScrip implementation may exist.
