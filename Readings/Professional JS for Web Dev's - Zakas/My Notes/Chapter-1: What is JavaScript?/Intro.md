@@ -51,3 +51,25 @@ JS implementation is made up of 3 parts:
             + Support for native JSON object.
             + Methods for Inheritance and advanced propery definition.
             + Strict mode was included to check how ECMAScript engines interpret and execute code.
+
+
+**Document Object Model (DOM)**:
+* It is an API for XML that was extended for use in HTML, and maps out entire web page as a hierarchy of nodes.
+    + For example, DOM map (*DOM Tree*) for following web page will be:
+    ```html
+    <html>
+        <head>
+            <title>Sample Page</title>
+        </head>
+        <body>
+            <p>Hello World!</p>
+        <body>
+    </html>
+    ```
+    DOM Tree:
+
+    ![DOM Model](https://s31.postimg.org/6xnt3a9e3/Screen_Shot_2016_07_03_at_5_54_47_PM.png)
++ Manipulation can be done on all these elements/nodes present in web page and new nodes can also be added with the help of DOM API.
++ DOM is important aspect of a web page as it acts as intermediary between code and renderer.
++ Different levels of DOM:
+    + Level 1:
