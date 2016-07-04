@@ -73,3 +73,24 @@ JS implementation is made up of 3 parts:
 + DOM is important aspect of a web page as it acts as intermediary between code and renderer.
 + Different levels of DOM:
     + Level 1:
+        + It became W3C recommendation in October 1998.
+        + It consisted of 2 modules and they are explained as below:
+            + **DOM Core**: It provided a way to map the structure of XML-based document to allow easy access and manipulation of the document.
+            + **DOM HTML**: It extended DOM Core by adding HTML specific objects and methods.
+    + Level 2:
+        + It was extension to DOM from *Level 1* and added support for:
+            + Mouse and UI events
+            + Ranges and Traversals
+            + Support and Manipulation of CSS through object interfaces.
+        + Below are new modules added in Level 2:
+            + **DOM Views**: It is responsible for interfaces to keep track of various views of document.
+            + **DOM Style**: It is responsible for interfaces to handle CSS based styling of DOM elements.
+            + **DOM Range & Traversal**: It is responsible for interfaces to handle manipulation of DOM tree.
+    + Level 3:
+        + It extends DOM with uniform load and save document methods.
+        + It provide new methods for DOM validation.
+        + In this level, DOM Core is extended to support all of XML 1.0 including XML Infoset, XPath & XML Base.
+    + Other DOM's: Apart from three levels discussed above, each DOM adds methods and interfaces unique to a particular language support:
+        + SVG (Scalable Vectore Graphics)
+        + MathML (Mathematical Markup Language)
+        + SMIL (Synchronized Multimedia Integration Language)
