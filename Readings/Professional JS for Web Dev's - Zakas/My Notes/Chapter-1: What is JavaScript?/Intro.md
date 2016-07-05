@@ -94,3 +94,17 @@ JS implementation is made up of 3 parts:
         + SVG (Scalable Vectore Graphics)
         + MathML (Mathematical Markup Language)
         + SMIL (Synchronized Multimedia Integration Language)
+
+
+**Browser Object Model (BOM)**:
++ It was introduced in IE3 & Netscape Navigator 3; and allowed access and manipulation of browser window.
++ BOM allowed developers to interact with browser outside of context of its displayed page.
++ Initially BOM was not included as part of JavaScript implementation also, there was no standard for it but in HTML5 it was changed and most parts of BOM were included as part of HTML5's formal specification.
++ Below are some extensions provided by BOM:
+    + Capability to pop-up new browser windows.
+    + Capability to resize, move and close browser windows.
+    + It provides `navigator` object which gives complete information about the browser.
+    + It provides support for cookies.
+    + It provides `screen` object which gives details about user's screen resolution.
+    + It provides various custom objects.
+    + It provides `location` object which gives detailed information about page loaded in the browser.
